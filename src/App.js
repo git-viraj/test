@@ -24,7 +24,11 @@ for(var i=0; i<14-count; i++){
 function App() {
   return (<>
   <Navbar  title="Mysite"  />
+  <h2 style={{"textAlign":"center"}}>Us</h2>
+  <hr></hr>
   <Slider />
+  <hr></hr>
+  <h2 style={{"textAlign":"center"}}>Our Profiles</h2>
   <div className="container my-3">
     <Body users={result}/></div>
 
